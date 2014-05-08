@@ -1,5 +1,10 @@
-# Pacman
+# Pu
 
+Pu 基于pacman修改的hexo模板
+修改了：
+1.头部logo；
+2.尾部增加个人签名。
+以下是原版模板介绍
 Pacman is a flat and responsive design theme for [Hexo](http://zespia.tw/hexo/).
 
 [Demo](http://A-limon.github.io/pacman) || [Alimon's Blog](http://yangjian.me)
