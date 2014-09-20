@@ -2,11 +2,8 @@ body
   >header
     width 100%
     box-shadow 2px 4px 5px hsla(0,1%,1%,.2)
-    background color-theme
+    background rgb(114,191,185)
     color color-white
-    padding 1em 0 0.8em 
-    @media tablet
-      padding 1.8em 0 1.5em
     >div
       width 95%
       margin 0 auto
@@ -17,6 +14,7 @@ body
     a
       display block
       color color-white
+      padding-top 10px
 
 #imglogo
   float left
@@ -35,8 +33,7 @@ body
 
 #textlogo
   float left
-  width 75%
-  margin-left 0.5em
+  width 35%
   h1.site-name
     width 86%
     if ShowCustomFont
@@ -107,7 +104,6 @@ header nav
     @media tablet
       padding 0.2em 1.5em
     &:hover
-      background saturate(darken(color-theme, 25%), 10%)
       color color-font-nav
 
 .shownav
